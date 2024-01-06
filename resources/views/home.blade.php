@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CRUD Project - Meherab Hasan</title>
+    <link href="/bootstrap-5.3.2-dist/css/bootstrap.css" rel="stylesheet">
 </head>
 
 <body>
@@ -25,7 +26,7 @@
             </div>
         </div>
     </div>
-
+    <script src="/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
 </body>
 
 </html>

@@ -35,7 +35,7 @@ class CreateController extends Controller
             }
 
         $user->save();
-        return redirect()->back();
+        return redirect()->route('home');
     }
 
 

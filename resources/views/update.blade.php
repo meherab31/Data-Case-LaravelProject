@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Update</title>
+    <link href="/bootstrap-5.3.2-dist/css/bootstrap.css" rel="stylesheet">
 </head>
-<body align='center'>
+<body class="container text-center mt-3">
     <h1>Update Data</h1>
 
-    <form action="{{ url('update',$data->id) }}" method="POST" enctype="multipart/form-data">
+    <form action="{{ url('update',$data->id) }}" method="POST" enctype="multipart/form-data" class="mt-3">
         @csrf
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" value="{{ $data->name }}"><br>
@@ -29,7 +30,8 @@
         <label for="new_image">New Image:</label>
         <input type="file" id="new_image" name="new_image"><br>
 
-        <input type="submit" value="Update">
+        <input type="submit" value="Update" class="btn btn-primary mt-3">
     </form>
+    <script src="/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
 </body>
 </html>

@@ -21,8 +21,9 @@ class ReadController extends Controller
 
     public function search(Request $request){
         $search = $request->search;
-        $data = Users::where('name', 'ilike', '%'.$search.'%')->orWhere('email', 'ilike', '%'.$search.'%')->get();
-
+        $data = Users::where('name', 'like', '%' . $search . '%')
+        ->orWhere('email', 'like', '%' . $search . '%')
+        ->get();
         return view('read', compact('data'));
     }
 
@@ -64,6 +65,6 @@ class ReadController extends Controller
             $user->save();
 
             // Redirect back or to a specific route after updating
-            return redirect()->back()->with('success', 'User updated successfully');
+            return redirect()->route('read');
         }
 }
