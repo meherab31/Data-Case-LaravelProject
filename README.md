@@ -9,7 +9,7 @@
 
 # Laravel Project by Meherab Hasan
 
-Welcome to the DATA CASE the laravel project created by Meherab Hasan. This project is a simple yet powerful demonstration of Create, Read, Update, Delete operations of data from database using the Laravel framework.
+Welcome to the DataCase the laravel project created by Meherab Hasan. This project is a simple yet powerful demonstration of Create, Read, Update, Delete operations of data from database using the Laravel framework.
 
 ## Features
 
@@ -23,5 +23,5 @@ Welcome to the DATA CASE the laravel project created by Meherab Hasan. This proj
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/meherab31/Data-Case-LaravelProject/
+   git clone https://github.com/meherab31/DataCase-LaravelProject
 
