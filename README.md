@@ -7,9 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# Laravel CRUD Project by Meherab Hasan
+# Laravel Project by Meherab Hasan
 
-Welcome to the Laravel CRUD project created by Meherab Hasan. This project is a simple yet powerful demonstration of CRUD (Create, Read, Update, Delete) operations using the Laravel framework.
+Welcome to the DATA CASE the laravel project created by Meherab Hasan. This project is a simple yet powerful demonstration of Create, Read, Update, Delete operations of data from database using the Laravel framework.
 
 ## Features
 
@@ -23,5 +23,5 @@ Welcome to the Laravel CRUD project created by Meherab Hasan. This project is a 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/meherab31/Create-Read-Update-Delete-LaravelProject/
+   git clone https://github.com/meherab31/Data-Case-LaravelProject/
 
